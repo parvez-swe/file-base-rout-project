@@ -1,9 +1,9 @@
 import React from 'react'
 
-const [slug] = () => {
+const Slug = () => {
   return (
-    <div>[slug]</div>
+    <div>slug</div>
   )
 }
 
-export default [slug]
+export default Slug;
