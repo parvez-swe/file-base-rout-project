@@ -1,14 +1,13 @@
-import { getFeaturedEvents } from "../../dummy-data";
-const AllEvenPage =()=>{
-    const featuredEvetnts = getFeaturedEvents();
+import { getAllEvents } from "../../dummy-data";
+import EventList from "../../components/events/event-list";
+const AllEventsPage = () => {
+  const events = getAllEvents();
 
-return(
+  return (
     <div>
-        <ul>
-            
-        </ul>
+      <EventList items={events} />
     </div>
-)
-}
+  );
+};
 
-export default AllEvenPage;
+export default AllEventsPage;
