@@ -4,6 +4,7 @@ import Button from "../ui/button";
 import classes from "./events-search.module.css";
 
 function EventsSearch(props) {
+
   const yearInputRef = useRef();
   const monthInputRef = useRef();
 
