@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { useRef } from "react";
-Link
+
 import Button from "../ui/button";
 import classes from "./events-search.module.css";
 

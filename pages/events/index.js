@@ -1,13 +1,16 @@
-import { getAllEvents } from "../../dummy-data";
+import React from "react";
+import Link from "next/link";
 import EventList from "../../components/events/event-list";
-const AllEventsPage = () => {
+import EventsSearch from "../../components/events/events-search";
+import { getAllEvents } from "../../dummy-data";
+const index = () => {
   const events = getAllEvents();
-
   return (
-    <div>
+    <>
+      <EventsSearch />
       <EventList items={events} />
-    </div>
+    </>
   );
 };
 
-export default AllEventsPage;
+export default index;
