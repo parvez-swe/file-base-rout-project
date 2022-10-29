@@ -4,7 +4,7 @@ import EventList from "../../components/events/event-list";
 import EventsSearch from "../../components/events/events-search";
 import { getAllEvents } from "../../dummy-data";
 import { useRouter } from "next/router";
-const index = () => {
+const Index = () => {
   const events = getAllEvents();
   const router = useRouter();
 
@@ -20,4 +20,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
